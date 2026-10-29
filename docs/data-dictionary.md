@@ -45,3 +45,7 @@ pilot_properties, target_candidates, observations and source_urls are counts, no
 ## evidence/http-access-recheck.json
 
 Supplementary diagnostics, separate from the coded retrieval session. started_at_utc and completed_at_utc are exact log times; method describes normal HTTPS GET. http_status, final_url, response_bytes, content_type and sha256_response_bytes are present on success. error is present on failure. limit_bytes documents the response read cap. coding_changed is always false. HTTP success does not establish full page-content access or an amenity claim.
+
+## v1.1 added fields
+
+`disclosure_status` separates specific/vague/not_found_in_review/undetermined from original `status`. `access_coverage` is partial, unavailable or reviewed_text_only; the latter does not certify completed browser review. `verification_status` is not_independently_verified. `claim_type` identifies the three positive examples or no_classified_claim. `actionability` is not_evaluated. Original v1 status is retained for historical comparability. `study.json` controls version, public dates, repository URL and citation.
