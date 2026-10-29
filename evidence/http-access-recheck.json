@@ -1,0 +1,137 @@
+{
+  "purpose": "Supplementary HTTP access diagnostics; not page-content verification or updated coding",
+  "results": [
+    {
+      "source_id": "A1",
+      "url": "https://www.marriott.com/en-us/hotels/mkeal-aloft-milwaukee-downtown/overview/",
+      "started_at_utc": "2026-10-29T19:09:43Z",
+      "method": "Python urllib HTTPS GET; default certificate validation",
+      "coding_changed": false,
+      "error": "HTTP Error 403: Forbidden",
+      "completed_at_utc": "2026-10-29T19:09:43Z"
+    },
+    {
+      "source_id": "A2",
+      "url": "https://www.marriott.com/en-us/hotels/mkeal-aloft-milwaukee-downtown/rooms/",
+      "started_at_utc": "2026-10-29T19:09:43Z",
+      "method": "Python urllib HTTPS GET; default certificate validation",
+      "coding_changed": false,
+      "http_status": 200,
+      "final_url": "https://www.marriott.com/en-us/hotels/mkeal-aloft-milwaukee-downtown/rooms/",
+      "response_bytes": 228259,
+      "sha256_response_bytes": "01e98865c6eb42f0c5ef528b1d6525f238e13b730d22a1782014ca38485479ae",
+      "content_type": "text/html; charset=utf-8",
+      "limit_bytes": 5000000,
+      "completed_at_utc": "2026-10-29T19:09:43Z"
+    },
+    {
+      "source_id": "M1",
+      "url": "https://ambassadormilwaukee.com/",
+      "started_at_utc": "2026-10-29T19:09:43Z",
+      "method": "Python urllib HTTPS GET; default certificate validation",
+      "coding_changed": false,
+      "error": "HTTP Error 403: Forbidden",
+      "completed_at_utc": "2026-10-29T19:09:43Z"
+    },
+    {
+      "source_id": "M2",
+      "url": "https://ambassadormilwaukee.com/guest-room-photos",
+      "started_at_utc": "2026-10-29T19:09:43Z",
+      "method": "Python urllib HTTPS GET; default certificate validation",
+      "coding_changed": false,
+      "error": "HTTP Error 403: Forbidden",
+      "completed_at_utc": "2026-10-29T19:09:43Z"
+    },
+    {
+      "source_id": "M3",
+      "url": "https://ambassadormilwaukee.com/amenities-and-faqs",
+      "started_at_utc": "2026-10-29T19:09:43Z",
+      "method": "Python urllib HTTPS GET; default certificate validation",
+      "coding_changed": false,
+      "error": "HTTP Error 403: Forbidden",
+      "completed_at_utc": "2026-10-29T19:09:43Z"
+    },
+    {
+      "source_id": "W1",
+      "url": "https://www.bestwestern.com/content/best-western/en_US/booking-path/hotel-details.50056.html",
+      "started_at_utc": "2026-10-29T19:09:43Z",
+      "method": "Python urllib HTTPS GET; default certificate validation",
+      "coding_changed": false,
+      "error": "HTTP Error 403: Forbidden",
+      "completed_at_utc": "2026-10-29T19:09:44Z"
+    },
+    {
+      "source_id": "W2",
+      "url": "https://www.bestwestern.com/en_US/book/milwaukee/hotel-rooms/best-western-plus-milwaukee-airport-hotel-conference-center/propertyCode.50056.html",
+      "started_at_utc": "2026-10-29T19:09:43Z",
+      "method": "Python urllib HTTPS GET; default certificate validation",
+      "coding_changed": false,
+      "error": "HTTP Error 403: Forbidden",
+      "completed_at_utc": "2026-10-29T19:09:44Z"
+    },
+    {
+      "source_id": "B1",
+      "url": "https://brewhousesuites.com/stay",
+      "started_at_utc": "2026-10-29T19:09:43Z",
+      "method": "Python urllib HTTPS GET; default certificate validation",
+      "coding_changed": false,
+      "http_status": 200,
+      "final_url": "https://brewhousesuites.com/stay",
+      "response_bytes": 42214,
+      "sha256_response_bytes": "5acff85fdbc279209d8e2e8a900d5eb7b7e9110671e1d687a13b6c2247100c88",
+      "content_type": "text/html; charset=utf-8",
+      "limit_bytes": 5000000,
+      "completed_at_utc": "2026-10-29T19:09:44Z"
+    },
+    {
+      "source_id": "B2",
+      "url": "https://brewhousesuites.com/faq",
+      "started_at_utc": "2026-10-29T19:09:43Z",
+      "method": "Python urllib HTTPS GET; default certificate validation",
+      "coding_changed": false,
+      "http_status": 200,
+      "final_url": "https://brewhousesuites.com/faq",
+      "response_bytes": 30448,
+      "sha256_response_bytes": "216b6ff96a95463ce0c7275bfe7bd39ca8a0765d757fcb2e33c6f306f073ef3d",
+      "content_type": "text/html; charset=utf-8",
+      "limit_bytes": 5000000,
+      "completed_at_utc": "2026-10-29T19:09:44Z"
+    },
+    {
+      "source_id": "C1",
+      "url": "https://www.cambriahotelmke.com/",
+      "started_at_utc": "2026-10-29T19:09:44Z",
+      "method": "Python urllib HTTPS GET; default certificate validation",
+      "coding_changed": false,
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1129)>",
+      "completed_at_utc": "2026-10-29T19:09:44Z"
+    },
+    {
+      "source_id": "C2",
+      "url": "https://www.cambriahotelmke.com/rooms",
+      "started_at_utc": "2026-10-29T19:09:44Z",
+      "method": "Python urllib HTTPS GET; default certificate validation",
+      "coding_changed": false,
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1129)>",
+      "completed_at_utc": "2026-10-29T19:09:44Z"
+    },
+    {
+      "source_id": "C3",
+      "url": "https://www.cambriahotelmke.com/downtown-milwaukee-hotel-rooms",
+      "started_at_utc": "2026-10-29T19:09:44Z",
+      "method": "Python urllib HTTPS GET; default certificate validation",
+      "coding_changed": false,
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1129)>",
+      "completed_at_utc": "2026-10-29T19:09:44Z"
+    },
+    {
+      "source_id": "C4",
+      "url": "https://www.cambriahotelmke.com/downtown-milwaukee-hotel",
+      "started_at_utc": "2026-10-29T19:09:44Z",
+      "method": "Python urllib HTTPS GET; default certificate validation",
+      "coding_changed": false,
+      "error": "<urlopen error [SSL: SSLV3_ALERT_HANDSHAKE_FAILURE] sslv3 alert handshake failure (_ssl.c:1129)>",
+      "completed_at_utc": "2026-10-29T19:09:44Z"
+    }
+  ]
+}

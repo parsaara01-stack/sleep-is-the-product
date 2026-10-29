@@ -1,0 +1,488 @@
+[
+  {
+    "observation_id": "H01-noise",
+    "property_id": "H01",
+    "domain": "noise",
+    "status": "not_accessible",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "A1",
+      "A2"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "Room-detail cards and FAQ answers were not available in the extract; the overview alone cannot settle this domain.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Partial extraction; do not interpret as a disclosure failure or missing amenity.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H01-light",
+    "property_id": "H01",
+    "domain": "light",
+    "status": "not_accessible",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "A1",
+      "A2"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "Room-detail cards and FAQ answers were not available in the extract; the overview alone cannot settle this domain.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Partial extraction; do not interpret as a disclosure failure or missing amenity.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H01-temperature",
+    "property_id": "H01",
+    "domain": "temperature",
+    "status": "not_accessible",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "A1",
+      "A2"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "Room-detail cards and FAQ answers were not available in the extract; the overview alone cannot settle this domain.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Partial extraction; do not interpret as a disclosure failure or missing amenity.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H01-bedding",
+    "property_id": "H01",
+    "domain": "bedding",
+    "status": "not_accessible",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "A1",
+      "A2"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "Room-detail cards and FAQ answers were not available in the extract; the overview alone cannot settle this domain.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Partial extraction; do not interpret as a disclosure failure or missing amenity.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H01-choice",
+    "property_id": "H01",
+    "domain": "choice",
+    "status": "not_accessible",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "A1",
+      "A2"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "Room-detail cards and FAQ answers were not available in the extract; the overview alone cannot settle this domain.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Partial extraction; do not interpret as a disclosure failure or missing amenity.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H02-noise",
+    "property_id": "H02",
+    "domain": "noise",
+    "status": "not_stated",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "No qualifying noise statement in the reviewed accessible text.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Bounded page review; no inference that a feature is absent.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H02-light",
+    "property_id": "H02",
+    "domain": "light",
+    "status": "not_stated",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "No qualifying light statement in the reviewed accessible text.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Bounded page review; no inference that a feature is absent.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H02-temperature",
+    "property_id": "H02",
+    "domain": "temperature",
+    "status": "not_stated",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "No qualifying temperature statement in the reviewed accessible text.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Bounded page review; no inference that a feature is absent.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H02-bedding",
+    "property_id": "H02",
+    "domain": "bedding",
+    "status": "vague",
+    "evidence_excerpt": "Luxury Linens",
+    "source_ids": [
+      "M3"
+    ],
+    "locator": "Amenities list",
+    "rationale": "A quality adjective without a material, construction, brand or other specification.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Bounded page review; no inference that a feature is absent.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H02-choice",
+    "property_id": "H02",
+    "domain": "choice",
+    "status": "not_stated",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "M1",
+      "M2",
+      "M3"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "No qualifying choice statement in the reviewed accessible text.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Bounded page review; no inference that a feature is absent.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H03-noise",
+    "property_id": "H03",
+    "domain": "noise",
+    "status": "vague",
+    "evidence_excerpt": "Enjoy quiet moments and restful nights in a thoughtfully designed Guest room.",
+    "source_ids": [
+      "W2"
+    ],
+    "locator": "Guest Rooms & Rates; repeated room-image caption",
+    "rationale": "Explicit quiet/rest promise without an acoustic feature, placement option or timed policy.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Room-page extract contains cached/default dates; no rate or availability claim is used.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H03-light",
+    "property_id": "H03",
+    "domain": "light",
+    "status": "not_stated",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "W1",
+      "W2"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "No qualifying light statement in the reviewed accessible text.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Bounded page review; no inference that a feature is absent.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H03-temperature",
+    "property_id": "H03",
+    "domain": "temperature",
+    "status": "not_stated",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "W1",
+      "W2"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "No qualifying temperature statement in the reviewed accessible text.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Bounded page review; no inference that a feature is absent.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H03-bedding",
+    "property_id": "H03",
+    "domain": "bedding",
+    "status": "not_stated",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "W1",
+      "W2"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "No qualifying bedding statement in the reviewed accessible text.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Bounded page review; no inference that a feature is absent.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H03-choice",
+    "property_id": "H03",
+    "domain": "choice",
+    "status": "not_stated",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "W1",
+      "W2"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "Bed-size inventories and non-smoking status alone do not meet the sleep-specific choice rule.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Bounded page review; no inference that a feature is absent.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H04-noise",
+    "property_id": "H04",
+    "domain": "noise",
+    "status": "specific",
+    "evidence_excerpt": "Quiet hours are from 10:00pm–6:00am daily.",
+    "source_ids": [
+      "B2"
+    ],
+    "locator": "Does the hotel lock its doors at night?",
+    "rationale": "A timed noise-management policy is specific. It does not establish actual sound levels or enforcement.",
+    "scope": "Property-wide stated policy",
+    "access_caveat": "Hotel claim only; no room testing or enforcement observation.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H04-light",
+    "property_id": "H04",
+    "domain": "light",
+    "status": "not_stated",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "B1",
+      "B2"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "Window size and loft brightness are described, but no light-control feature is stated.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Bounded page review; no inference that a feature is absent.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H04-temperature",
+    "property_id": "H04",
+    "domain": "temperature",
+    "status": "not_stated",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "B1",
+      "B2"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "No qualifying temperature statement in the reviewed accessible text.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Bounded page review; no inference that a feature is absent.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H04-bedding",
+    "property_id": "H04",
+    "domain": "bedding",
+    "status": "not_stated",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "B1",
+      "B2"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "The page lists bed sizes and arrangements, which do not meet the predeclared bedding-specificity rule.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Bounded page review; no inference that a feature is absent.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H04-choice",
+    "property_id": "H04",
+    "domain": "choice",
+    "status": "not_stated",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "B1",
+      "B2"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "Room-size choices and on-request massage fall outside the predeclared sleep-equipment/placement choice domain.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "Bounded page review; no inference that a feature is absent.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H05-noise",
+    "property_id": "H05",
+    "domain": "noise",
+    "status": "not_accessible",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "Official page retrieval failed. Search-index text is a lead, not eligible coding evidence.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "TLS/access failure in this research environment; no negative or positive inference.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H05-light",
+    "property_id": "H05",
+    "domain": "light",
+    "status": "not_accessible",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "Official page retrieval failed. Search-index text is a lead, not eligible coding evidence.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "TLS/access failure in this research environment; no negative or positive inference.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H05-temperature",
+    "property_id": "H05",
+    "domain": "temperature",
+    "status": "not_accessible",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "Official page retrieval failed. Search-index text is a lead, not eligible coding evidence.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "TLS/access failure in this research environment; no negative or positive inference.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H05-bedding",
+    "property_id": "H05",
+    "domain": "bedding",
+    "status": "not_accessible",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "Official page retrieval failed. Search-index text is a lead, not eligible coding evidence.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "TLS/access failure in this research environment; no negative or positive inference.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  },
+  {
+    "observation_id": "H05-choice",
+    "property_id": "H05",
+    "domain": "choice",
+    "status": "not_accessible",
+    "evidence_excerpt": "",
+    "source_ids": [
+      "C1",
+      "C2",
+      "C3",
+      "C4"
+    ],
+    "locator": "Overview, room descriptions and amenities/FAQ text",
+    "rationale": "Official page retrieval failed. Search-index text is a lead, not eligible coding evidence.",
+    "scope": "Reviewed property pages",
+    "access_caveat": "TLS/access failure in this research environment; no negative or positive inference.",
+    "observed_window_start_utc": "2026-10-29T18:55:00Z",
+    "observed_window_end_utc": "2026-10-29T19:01:00Z",
+    "coder": "Single AI-assisted initial coder; not independently adjudicated",
+    "protocol": "v1"
+  }
+]

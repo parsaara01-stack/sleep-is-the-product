@@ -1,0 +1,15 @@
+{
+  "source_id": "W1",
+  "property_id": "H03",
+  "title": "Best Western — hotel overview",
+  "url": "https://www.bestwestern.com/content/best-western/en_US/booking-path/hotel-details.50056.html",
+  "access_depth": "page_text_partial",
+  "access_note": "Overview readable; amenity headings unpopulated. Supplemented with W2.",
+  "evidence_excerpt": "",
+  "locator": "",
+  "delivery": "web research extractor; may be cached",
+  "retrieval_window_start_utc": "2026-10-29T18:55:00Z",
+  "retrieval_window_end_utc": "2026-10-29T19:01:00Z",
+  "logged_at_utc": "2026-10-29T19:07:26Z",
+  "timestamp_precision": "session window; no per-call seconds retained"
+}

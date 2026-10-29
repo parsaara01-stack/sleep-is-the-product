@@ -1,0 +1,21 @@
+# Access log
+
+All visits were made October 29, 2026. The collection window was 18:55–19:01 UTC (13:55–14:01 America/Chicago); precise log-creation times are stored separately from visit windows. A web research extractor can return cached text: its “crawled” labels are not hotel publication dates. This pilot measures text returned in this session, not a certified live rendering at that instant.
+
+- **Aloft**: official overview and accommodations URLs returned page text. The accommodations extract lacks populated room-detail cards and FAQ answers. Five domains remain not accessible under the conservative partial-access rule. Mobile service requests are generic, not a sleep-specific choice mechanism. Search-returned guest reviews were excluded.
+- **Ambassador**: official home, room photos/descriptions and amenities/FAQ pages returned text. The room photos were not used as feature evidence. Luxury linens is vague; no material, weave or mattress specification was established. Other four domains are not stated in this three-page review.
+- **Best Western**: official overview and room/rate pages returned text, including room-specific amenity lists. The latter carried cached/default October 5–6 dates; no date was entered and no rates or availability were analyzed. Hotel description and picture captions are hotel-authored, not guest reviews. A general quiet/restful claim is vague noise information, with no acoustic feature or enforcement mechanism. Generic non-smoking status and bed-size inventories are excluded from guest choice.
+- **Brewhouse**: official accommodation and FAQ pages returned text. FAQ states timed quiet hours. Bed sizes alone are outside the bedding rubric. In-room massage on request is outside the defined sleep-equipment/placement choice domain. Large windows and a bright loft do not establish light control.
+- **Cambria**: official home and two discovered room/hotel pages failed with timeout/502; an initial guessed `/rooms` path also failed. Search index exposed promotional bedding text, but index-only leads were not used for coding any positive or negative feature. A browser visit to the correct room URL failed with ERR_SSL_VERSION_OR_CIPHER_MISMATCH; an ordinary Python HTTPS fetch also failed the TLS handshake. No security checks were disabled. All five domains remain not accessible, not not stated. Four unique URLs attempted; no substitution of a sixth hotel.
+
+## Literature
+
+- **Robbins et al.**: PubMed metadata and abstract verified via indexed primary records; direct PubMed open was incomplete. PMC's direct full text returned a browser check; an XML alternative was inaccessible and Europe PMC's normal full-text endpoint returned HTTP 500. Indexed PMC sections were visible but are not treated as a complete full-text review. The evidence table is therefore labeled abstract/metadata plus indexed sections, direct full text unavailable. No detailed coefficient or causal claim is used.
+- **Xiong, Fan & Qi**: Frontiers full text accessible. Methods and limitations read: 505 analyzed travelers, 28 hotels in Guangdong Province; collection July–August 2018; self-report with recall and selection limitations. Hotel satisfaction is not experimentally manipulated. Some narrative/table sample descriptions differ; no demographic percentage is reused here.
+- **Chen et al.**: Emerald publisher abstract and metadata accessible; full text paywalled. The abstract reports 304 business travelers and self-report. No purchase or account login attempted.
+
+Counts describe this bounded review only. The incomplete sites make a cross-hotel disclosure ranking particularly inappropriate.
+
+## Supplementary ordinary HTTPS diagnostic
+
+A separate check at the exact UTC timestamps recorded in `evidence/http-access-recheck.json` returned HTTP 200 for Aloft accommodations and both Brewhouse pages; Aloft overview, all three Ambassador pages and both Best Western pages returned 403 to Python urllib. All four Cambria attempts failed the TLS handshake. The earlier web-extractor evidence remains identified as potentially cached. These diagnostics do not change any classification or establish complete room-panel access. Successful response bytes were hashed and not redistributed.

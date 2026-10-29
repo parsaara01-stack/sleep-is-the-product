@@ -1,0 +1,37 @@
+# Sleep Is the Product — protocol v1
+
+Author: Parsa Ara. Locked 2026-10-29 at 18:58 UTC, before coding the property-domain table. Initial literature and hotel URL discovery preceded this lock; this is a prospective pilot coding protocol, not a registered or fully blinded study.
+
+## Question and estimand
+
+How specific is sleep-relevant information on selected official hotel pages? The unit is one property × one of five domains. The estimand is disclosure within a bounded page review, not amenity prevalence, sleep quality, clinical benefit, hotel quality, or revenue. No hypothesis test, hotel ranking, or composite health score will be produced.
+
+## Geography and selection
+
+Target: 30 publicly bookable hotel properties in the City of Milwaukee, Wisconsin, USA. Include chain and independent hotels, airport and downtown areas, and all-suite hotels. Exclude short-term rentals, B&Bs, hostels, duplicate listings, and properties outside city limits. This is a fixed, purposive candidate panel, not an exhaustive city census or probability sample. The 30-name registry is frozen with this protocol; eligibility of the other 25 remains to be verified before expansion. Unavailable pilot websites stay in the sample. Closed/ineligible candidates are documented and replaced only at expansion, with a dated amendment.
+
+The pilot comprises the first five alphabetically named entries in the fixed candidate registry: Aloft Milwaukee Downtown; Ambassador Hotel Milwaukee; Best Western Plus Milwaukee Airport Hotel & Conference Center; Brewhouse Inn & Suites; Cambria Hotel Milwaukee Downtown. This deterministic rule was fixed before coding. It is not representative of Milwaukee or of any hotel class.
+
+## Bounded search and access
+
+Review official property/brand overview, room/accommodation page, and amenities/FAQ pages where discoverable: up to four URLs per property. One targeted official-domain search may locate a missing relevant page. Record each URL attempted, retrieval time, delivery method, access depth, and limitations. No OTA/review evidence, photo inference, phone calls, bookings, dates selected, account login, or guest review mining. Search-index excerpts are discovery only and cannot establish a negative. Dynamic room detail panels may be inaccessible; mark that explicitly. Searches are a repeatable review route, not an exhaustive search of every hotel page.
+
+## Domains and rules
+
+- Noise: stated quiet hours, acoustic treatments, quiet-room placement, noise advisories, or noise-management provisions. Proximity to attractions alone does not qualify.
+- Light control: blackout/darkening treatments or guest-adjustable lighting. Large windows alone do not qualify.
+- Temperature control: guest-adjustable thermostat or named heating/cooling system. Air conditioning is a specific system claim but does not establish individual control; retain that distinction in notes.
+- Bedding: named/material/type-specific mattress, pillow or linen features. Bed size alone is excluded. “Luxury,” “plush,” or “cloud-like” without detail is vague.
+- Guest choice: explicit pillow/linen options or a request mechanism for sleep-relevant room placement/equipment. King/queen room inventories, generic accessibility notices and smoke-free policies alone are excluded. Do not infer request fulfillment.
+
+Four non-ordinal statuses: **specific** (a concrete feature, policy, limitation or actionable mechanism); **vague** (relevant but unqualified rest/comfort language); **not_stated** (no qualifying statement in the accessible reviewed text); **not_accessible** (a blocked or missing relevant source/panel prevents classification). Specific claims supersede vague claims within a domain, but limited room scope stays visible. Partial-access warnings remain even when one accessible statement supports a status. If relevant detail is unavailable and no positive statement establishes a code, use not_accessible, not not_stated. An explicit absence would be a specific negative claim, preserved verbatim; none is assumed.
+
+Use a short excerpt (at most 25 quoted words per source across the public evidence table), paraphrase, section locator, source IDs, room scope, access caveat, and coding rationale. A not_stated row references the reviewed source set, with no invented quotation. Vague promotional wording about general comfort is not automatically a sleep promise. Sleep/rest marketing is logged separately only when text explicitly mentions sleeping/resting.
+
+## Analysis and uncertainty
+
+Show the 5 × 5 matrix and descriptive domain counts with denominator 5, with inaccessible cells counted separately. Do not collapse vague, not_stated and not_accessible into absence or zero. The matrix is an information audit; equal domain presentation is not equal causal importance. No confidence intervals from this nonrandom pilot. Report sensitivity only if changing a rule changes a headline; retain the primary rule and describe alternatives. There is one initial coder (AI-assisted, edited for Parsa Ara); no inter-rater reliability claim. Independent double-coding and guest comprehension checks are required before scaling conclusions.
+
+## Future validation, not initiated
+
+Double-code the five properties; resolve disagreements using evidence, not inferred amenities. Verify municipal eligibility and complete the 30 panel under one review window. With a willing hotel partner and appropriate participant protections, test whether guests understand disclosures and whether claims match room conditions. Measuring sleep or commercial outcomes would require a separate prospectively designed study. No recruitment or partner contact is authorized for this milestone.

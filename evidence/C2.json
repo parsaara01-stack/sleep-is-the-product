@@ -1,0 +1,15 @@
+{
+  "source_id": "C2",
+  "property_id": "H05",
+  "title": "Cambria — guessed rooms path",
+  "url": "https://www.cambriahotelmke.com/rooms",
+  "access_depth": "unavailable",
+  "access_note": "Guessed path inaccessible; correct rooms URL subsequently discovered.",
+  "evidence_excerpt": "",
+  "locator": "",
+  "delivery": "web research extractor; may be cached",
+  "retrieval_window_start_utc": "2026-10-29T18:55:00Z",
+  "retrieval_window_end_utc": "2026-10-29T19:01:00Z",
+  "logged_at_utc": "2026-10-29T19:07:26Z",
+  "timestamp_precision": "session window; no per-call seconds retained"
+}

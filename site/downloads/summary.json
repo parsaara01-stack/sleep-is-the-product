@@ -1,0 +1,48 @@
+{
+  "pilot_properties": 5,
+  "target_candidates": 30,
+  "observations": 25,
+  "source_urls": 13,
+  "overall": {
+    "specific": 1,
+    "vague": 2,
+    "not_stated": 12,
+    "not_accessible": 10
+  },
+  "by_domain": {
+    "noise": {
+      "specific": 1,
+      "vague": 1,
+      "not_stated": 1,
+      "not_accessible": 2
+    },
+    "light": {
+      "specific": 0,
+      "vague": 0,
+      "not_stated": 3,
+      "not_accessible": 2
+    },
+    "temperature": {
+      "specific": 0,
+      "vague": 0,
+      "not_stated": 3,
+      "not_accessible": 2
+    },
+    "bedding": {
+      "specific": 0,
+      "vague": 1,
+      "not_stated": 2,
+      "not_accessible": 2
+    },
+    "choice": {
+      "specific": 0,
+      "vague": 0,
+      "not_stated": 3,
+      "not_accessible": 2
+    }
+  },
+  "claim_quality_sensitivity": {
+    "primary_specific": 1,
+    "looser_bedding_adjectives_specific": 2
+  }
+}
