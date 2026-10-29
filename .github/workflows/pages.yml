@@ -1,0 +1,55 @@
+name: Publish first research pilot
+on:
+  push:
+    branches: [main]
+  workflow_dispatch:
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - uses: actions/checkout@v6
+      - name: Expand audited source files
+        run: |
+          python3 - <<'PY'
+          from pathlib import Path
+          from zipfile import ZipFile
+          if Path('research-source.zip').exists():
+              with ZipFile('research-source.zip') as archive:
+                  for item in archive.infolist():
+                      path = Path(item.filename)
+                      if path.is_absolute() or '..' in path.parts:
+                          raise ValueError('Unsafe archive member')
+                      if not item.filename.startswith('.github/'):
+                          archive.extract(item, '.')
+          PY
+      - name: Build and validate pilot
+        run: |
+          python3 scripts/build.py
+          python3 scripts/validate.py
+          python3 scripts/check_site.py
+      - name: Save readable source files to the repository
+        run: |
+          git config user.name 'github-actions[bot]'
+          git config user.email '41898282+github-actions[bot]@users.noreply.github.com'
+          if test -f research-source.zip; then git rm research-source.zip; fi
+          git add . ':!.github'
+          if ! git diff --cached --quiet; then
+            git commit -m 'Expand checked research source and static pilot'
+            git push
+          fi
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: site
+      - uses: actions/deploy-pages@v4
+        id: deployment
