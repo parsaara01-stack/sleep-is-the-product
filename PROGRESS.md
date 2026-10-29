@@ -1,3 +1,7 @@
+# Dataset v1.1 revision — October 29, 2026
+
+The disclosure audit now separates access coverage from original coding, uses clearer negative labels, and generates the public version/counts/dates from data. Original collection and codes are preserved. See [revision record](docs/revision-and-verification.md) and [prospective v2 collection protocol](docs/protocol-v2.md). Independent coding, municipal eligibility and recollection remain pending. Earlier milestone notes below describe v1.
+
 # Progress — October 29, 2026
 
 Author: Parsa Ara. Stage: protocol-led, five-hotel website-information pilot. The initial local research milestone is built and tested. Published at https://parsaara01-stack.github.io/sleep-is-the-product/ with a separate public source repository and a verified successful first build/deployment.

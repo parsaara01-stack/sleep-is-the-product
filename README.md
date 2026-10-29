@@ -1,3 +1,7 @@
+# Dataset v1.1 revision — October 29, 2026
+
+The disclosure audit now separates access coverage from original coding, uses clearer negative labels, and generates the public version/counts/dates from data. Original collection and codes are preserved. See [revision record](docs/revision-and-verification.md) and [prospective v2 collection protocol](docs/protocol-v2.md). Independent coding, municipal eligibility and recollection remain pending. Earlier milestone notes below describe v1.
+
 # Sleep Is the Product
 
 By Parsa Ara. A five-hotel Milwaukee website-information pilot, collected October 29, 2026. What do official hotel pages tell a guest about noise, light control, temperature, bedding and sleep-specific choices before booking?
