@@ -1,4 +1,13 @@
 {
+  "study": {
+    "version": "1.1",
+    "review_date": "October 29, 2026",
+    "collection_window": "October 29, 2026, 18:55–19:01 UTC",
+    "revision_date": "October 29, 2026",
+    "stage": "Exploratory disclosure audit · verification pending",
+    "repository": "https://github.com/parsaara01-stack/sleep-is-the-product",
+    "citation": "Ara, Parsa. (2026). Sleep Is the Product: Five-hotel disclosure pilot. Dataset v1.1. https://parsaara01-stack.github.io/sleep-is-the-product/"
+  },
   "properties": [
     {
       "property_id": "H01",
@@ -82,7 +91,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "undetermined",
+      "access_coverage": "partial",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H01-light",
@@ -101,7 +115,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "undetermined",
+      "access_coverage": "partial",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H01-temperature",
@@ -120,7 +139,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "undetermined",
+      "access_coverage": "partial",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H01-bedding",
@@ -139,7 +163,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "undetermined",
+      "access_coverage": "partial",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H01-choice",
@@ -158,7 +187,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "undetermined",
+      "access_coverage": "partial",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H02-noise",
@@ -178,7 +212,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "not_found_in_review",
+      "access_coverage": "reviewed_text_only",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H02-light",
@@ -198,7 +237,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "not_found_in_review",
+      "access_coverage": "reviewed_text_only",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H02-temperature",
@@ -218,7 +262,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "not_found_in_review",
+      "access_coverage": "reviewed_text_only",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H02-bedding",
@@ -236,7 +285,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "vague",
+      "access_coverage": "reviewed_text_only",
+      "verification_status": "not_independently_verified",
+      "claim_type": "quality_adjective",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H02-choice",
@@ -256,7 +310,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "not_found_in_review",
+      "access_coverage": "reviewed_text_only",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H03-noise",
@@ -274,7 +333,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "vague",
+      "access_coverage": "reviewed_text_only",
+      "verification_status": "not_independently_verified",
+      "claim_type": "promotional_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H03-light",
@@ -293,7 +357,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "not_found_in_review",
+      "access_coverage": "reviewed_text_only",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H03-temperature",
@@ -312,7 +381,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "not_found_in_review",
+      "access_coverage": "reviewed_text_only",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H03-bedding",
@@ -331,7 +405,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "not_found_in_review",
+      "access_coverage": "reviewed_text_only",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H03-choice",
@@ -350,7 +429,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "not_found_in_review",
+      "access_coverage": "reviewed_text_only",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H04-noise",
@@ -368,7 +452,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "specific",
+      "access_coverage": "reviewed_text_only",
+      "verification_status": "not_independently_verified",
+      "claim_type": "timed_policy",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H04-light",
@@ -387,7 +476,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "not_found_in_review",
+      "access_coverage": "reviewed_text_only",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H04-temperature",
@@ -406,7 +500,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "not_found_in_review",
+      "access_coverage": "reviewed_text_only",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H04-bedding",
@@ -425,7 +524,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "not_found_in_review",
+      "access_coverage": "reviewed_text_only",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H04-choice",
@@ -444,7 +548,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "not_found_in_review",
+      "access_coverage": "reviewed_text_only",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H05-noise",
@@ -465,7 +574,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "undetermined",
+      "access_coverage": "unavailable",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H05-light",
@@ -486,7 +600,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "undetermined",
+      "access_coverage": "unavailable",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H05-temperature",
@@ -507,7 +626,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "undetermined",
+      "access_coverage": "unavailable",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H05-bedding",
@@ -528,7 +652,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "undetermined",
+      "access_coverage": "unavailable",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     },
     {
       "observation_id": "H05-choice",
@@ -549,7 +678,12 @@
       "observed_window_start_utc": "2026-10-29T18:55:00Z",
       "observed_window_end_utc": "2026-10-29T19:01:00Z",
       "coder": "Single AI-assisted initial coder; not independently adjudicated",
-      "protocol": "v1"
+      "protocol": "v1",
+      "disclosure_status": "undetermined",
+      "access_coverage": "unavailable",
+      "verification_status": "not_independently_verified",
+      "claim_type": "no_classified_claim",
+      "actionability": "not_evaluated"
     }
   ],
   "sources": [
