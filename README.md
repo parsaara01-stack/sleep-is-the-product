@@ -63,8 +63,14 @@ It writes diagnostics under ignored `work/`, uses ordinary certificate validatio
 
 ## Publication
 
-The human confirmed GitHub and GitHub Pages on October 29, 2026. The connected GitHub identity was freshly verified as `parsaara01-stack`. The intended new repository name is `sleep-is-the-product`. The separate public repository has been created at https://github.com/parsaara01-stack/sleep-is-the-product. Source upload and Pages activation are in progress. No successful CI run or public site URL is claimed until verified.
+- Live pilot: https://parsaara01-stack.github.io/sleep-is-the-product/
+- Separate public repository: https://github.com/parsaara01-stack/sleep-is-the-product
+- First verified successful build/deployment: https://github.com/parsaara01-stack/sleep-is-the-product/actions/runs/40939597426
 
-The checked-in `.github/workflows/pages.yml` builds and validates before deployment. Once the new public repository exists and the local commits are pushed, set Settings → Pages → Source to GitHub Actions. The workflow follows [GitHub's official Pages instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages). Do not claim deployment until its workflow and public URL are verified.
+The public homepage, JSON dataset and observations CSV returned HTTP 200; the served dataset contained five properties and 25 observations. The domain controls and evidence inspector were also verified at the repository subpath in a browser. The site remains clearly labeled as a five-hotel pilot.
+
+The permanent `.github/workflows/pages.yml` builds and validates before deployment, using GitHub Actions as the Pages source. It follows [GitHub's official Pages instructions](https://docs.github.com/en/pages/getting-started-with-github-pages/using-custom-workflows-with-github-pages). The public files were transferred through the signed-in GitHub browser because the connector could read but could not write the new repository. A one-time workflow expanded the checked archive into readable source files; it has been replaced by the normal workflow. No archive is needed to run the project.
+
+The exact initial local research history is preserved on the local `local-pilot-history` branch; the main branch follows the public repository. The initial protocol patch is also public. Local and remote initialization histories had different root commits; the study is not presented as preregistered.
 
 No hotel/participant contact, paid access or participant recruitment occurred. No changes were made to the existing Adobe Portfolio site or sibling studies. Hotel text belongs to its respective rights holders; no license to hotel imagery or full website content is implied.

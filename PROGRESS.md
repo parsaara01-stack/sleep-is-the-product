@@ -1,6 +1,6 @@
 # Progress — October 29, 2026
 
-Author: Parsa Ara. Stage: protocol-led, five-hotel website-information pilot. The initial local research milestone is built and tested. The separate public GitHub repository has been created; Pages publication is in progress. No deployed URL is claimed until verified.
+Author: Parsa Ara. Stage: protocol-led, five-hotel website-information pilot. The initial local research milestone is built and tested. Published at https://parsaara01-stack.github.io/sleep-is-the-product/ with a separate public source repository and a verified successful first build/deployment.
 
 ## Completed
 
@@ -30,13 +30,17 @@ Author: Parsa Ara. Stage: protocol-led, five-hotel website-information pilot. Th
 - Single AI-assisted initial coder; no independent adjudication/reliability estimate. Initial web timestamps are honestly recorded as a session interval, with logging time separate.
 - Primary paper access limits prevent claiming a full-text literature review. The guest-choice domain is investigator-defined.
 
-## Publication progress
+## Publication verified
 
-The human completed browser sign-in. Repository creation was verified in the browser and connector for `parsaara01-stack/sleep-is-the-product` (public). The local source is ready for connector upload and Pages activation. The earlier authentication blocker is resolved. A source upload or Pages workflow result is not yet claimed. The initial local protocol commit is preserved in `evidence/protocol-initial-commit.patch`; public initialization history and local research history need not share the same root commit.
+- Public source: https://github.com/parsaara01-stack/sleep-is-the-product
+- Live pilot: https://parsaara01-stack.github.io/sleep-is-the-product/
+- First successful build/deployment: https://github.com/parsaara01-stack/sleep-is-the-product/actions/runs/40939597426
+- Public homepage, data/pilot.json and observations CSV returned HTTP 200. The public JSON contains five properties and 25 observations. Live domain counts and evidence-inspector behavior were verified in the browser, with no observed warnings/errors.
+- GitHub Actions is the Pages source. The permanent workflow runs build, integrity and static-route checks before deployment. A one-time archive expansion was used because connector writes were denied; the repository now has readable source files and the normal workflow.
+- Original local research commits are preserved on local-pilot-history. The initial protocol patch is public. Local main follows the remote history; no public preregistration claim.
 
 ## Next actions
 
-1. Upload the checked source to the new repository, activate GitHub Actions as the Pages source, and verify both workflow completion and the served repository-subpath URL. Do not modify sibling studies or the existing Adobe Portfolio site.
-2. Retry inaccessible room detail under the same documented scope and record any revision as a new review, rather than silently overwriting access history.
-3. Obtain independent double-coding of the 25 cells, adjudicate with source text, then verify current operation and municipal eligibility for the 30 candidates before expansion.
-4. Prepare a separate protocol for any partner/guest comprehension or room-condition validation. No recruitment, partner contact, payments or guest outcome data collection has begun.
+1. Retry inaccessible room detail under the same documented scope and record any revision as a new review, rather than silently overwriting access history.
+2. Obtain independent double-coding of the 25 cells, adjudicate with source text, then verify current operation and municipal eligibility for the 30 candidates before expansion.
+3. Prepare a separate protocol for any partner/guest comprehension or room-condition validation. No recruitment, partner contact, payments or guest outcome data collection has begun.
