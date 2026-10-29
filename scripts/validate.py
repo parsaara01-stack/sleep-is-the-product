@@ -23,6 +23,9 @@ def validate():
   assert datetime.fromisoformat(s['retrieval_window_start_utc'].replace('Z','+00:00'))<datetime.fromisoformat(s['retrieval_window_end_utc'].replace('Z','+00:00'))
   assert json.loads((ROOT/'evidence'/f"{s['source_id']}.json").read_text())==s
  for r in obs:
+  assert r['disclosure_status']=={'not_stated':'not_found_in_review','not_accessible':'undetermined'}.get(r['status'],r['status'])
+  assert r['access_coverage'] in {'partial','unavailable','reviewed_text_only'}
+  assert r['verification_status']=='not_independently_verified'
   assert r['status'] in {'specific','vague','not_stated','not_accessible'}
   assert r['source_ids'] and all(i in sm and sm[i]['property_id']==r['property_id'] for i in r['source_ids'])
   if r['status'] in {'specific','vague'}:
@@ -42,9 +45,11 @@ def validate():
   assert sum(counts.values())==5
   for status,count in counts.items():assert count==sum(r['domain']==domain and r['status']==status for r in obs)
  bundled=json.loads((ROOT/'site/data/pilot.json').read_text())
+ assert bundled['study']==read('study.json')
+ assert bundled['properties']==props and bundled['literature']==read('literature.json')
  assert bundled['observations']==obs and bundled['sources']==sources and bundled['summary']==summary
  page=(ROOT/'site/index.html').read_text()
- assert '{{' not in page and 'Five-hotel pilot' in page
+ assert '{{' not in page and 'Exploratory pilot' in page
  assert all(f'id="evidence-{r["observation_id"]}"' in page for r in obs)
  for name in ['observations.csv','sources.json','protocol.md','methods.md','data-dictionary.md']:
   assert (ROOT/'site/downloads'/name).is_file()
